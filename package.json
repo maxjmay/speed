@@ -1,0 +1,15 @@
+{
+    "name": "MaxJMay",
+    "version": "0.0.0",
+    "description": "My website.",
+    "dependencies": {
+        "socket.io": "latest",
+        "express": "latest",
+		"bower": "1.3.8",
+		"lastfm": "latest"
+    },
+	"scripts": {
+		"postinstall": "./node_modules/bower/bin/bower install"
+	},
+    "author": "Max Maybury"
+}
